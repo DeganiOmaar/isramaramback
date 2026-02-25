@@ -158,6 +158,7 @@ exports.login = async (req, res) => {
         registrationComplete: true,
         societeNom: user.societeNom,
         produitAVendre: user.produitAVendre,
+        descriptionActivite: user.descriptionActivite,
       },
     });
   } catch (err) {
